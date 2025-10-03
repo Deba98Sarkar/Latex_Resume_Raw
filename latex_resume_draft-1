@@ -1,0 +1,111 @@
+\documentclass[a4paper,11pt]{article}
+
+% Packages
+\usepackage{paracol}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{fontawesome} % for icons (optional modern look)
+
+% Formatting
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{6pt}\scshape\Large\raggedright
+}{}{0em}{}[\titlerule \vspace{6pt}]
+
+\setlist[itemize]{noitemsep, topsep=4pt, leftmargin=0.2in}
+
+% Font styling
+\renewcommand{\familydefault}{\sfdefault} % clean sans-serif font
+
+\begin{document}
+
+%===== HEADER =====
+\begin{center}
+    {\Huge \bfseries Debabrata Sarkar} \\[6pt]
+    Technology Analyst, Infosys \\[3pt]
+    \href{mailto:sdebabrata9@gmail.com}{sdebabrata9@gmail.com} \,|\, +91-8617345699 \\
+\end{center}
+
+\vspace{10pt}
+
+\begin{paracol}{2}
+%===== LEFT COLUMN =====
+\switchcolumn
+
+%-- Profile Summary
+\section*{Profile Summary}
+Technology Analyst with 4+ years of experience in \textbf{Generative AI, Python, and LangChain}.  
+Proven expertise in \textbf{Prompt Engineering, Semantic Search, RAG pipelines, and LLM fine-tuning}.  
+Skilled in backend API development using Flask, deployed on \textbf{Google Cloud Platform}.  
+Passionate about solving real-world business problems with AI and delivering impactful automation.
+
+%-- Core Skills
+\section*{Core Skills}
+\begin{itemize}
+    \item \textbf{Programming:} Python, SQL
+    \item \textbf{AI/LLMs:} LangChain, OpenAI, Gemini Flash, Hugging Face
+    \item \textbf{Expertise:} Prompt Engineering, RAG, LLM Fine-tuning
+    \item \textbf{Cloud:} GCP (Vertex AI, Cloud Build, Workbench, Storage)
+    \item \textbf{Databases:} PostgreSQL, Qdrant
+    \item \textbf{Automation:} UiPath, Streamlit
+    \item \textbf{Other:} Flask, REST APIs, Dialogflow
+\end{itemize}
+
+%-- Certifications
+\section*{Certifications}
+\begin{itemize}
+    \item Google Certified Associate Cloud Engineer (ACE)
+    \item Infosys Certified Generative AI Professional – Foundation \& Intermediate
+    \item Infosys Certified SQL Developer – Foundation
+\end{itemize}
+
+%===== RIGHT COLUMN =====
+\switchcolumn
+
+%-- Experience
+\section*{Professional Experience}
+
+\textbf{Technology Analyst} \hfill Infosys \\
+\textit{Oct 2024 -- Present}
+\begin{itemize}
+    \item Developed a \textbf{Semantic Search Application} using Python, LangChain, Gemini Flash, Gecko embeddings, and Qdrant.
+    \item Built a \textbf{Generative AI Contract Compliance Tool} to analyze contracts, identify discrepancies, and ensure compliance with company policies.
+    \item Applied \textbf{Prompt Engineering} (templates, few-shot, temperature tuning) to improve accuracy and minimize hallucinations.
+    \item Integrated \textbf{Gemini Flash LLM with RAG pipelines}, enabling accurate, context-aware enterprise data responses.
+    \item Conducted \textbf{AI-driven code reviews} using Mistral and Claude, enhancing maintainability and coding standards.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Senior System Engineer} \hfill Infosys \\
+\textit{Oct 2023 -- Sep 2024}
+\begin{itemize}
+    \item Automated enterprise workflows using \textbf{UiPath}, including OCR, form filling, email, and SMS automation.
+    \item Designed and deployed \textbf{web scraping solutions}, reducing manual back-office efforts.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{System Engineer} \hfill Infosys \\
+\textit{Oct 2021 -- Sep 2023}
+\begin{itemize}
+    \item Supported enterprise systems on \textbf{Google Cloud Platform} (IAM, Kubernetes, Cloud Build, Workbench).
+    \item Monitored workloads and analyzed logs using GCP log-explorer for large-scale applications.
+\end{itemize}
+
+%-- Education
+\section*{Education}
+\textbf{Bachelor of Technology in Civil Engineering} \hfill 2021 \\
+Meghnad Saha Institute of Technology, MAKAUT
+
+\end{paracol}
+
+\end{document}
