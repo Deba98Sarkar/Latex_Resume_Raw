@@ -1,0 +1,160 @@
+\documentclass[a4paper,11pt]{article}
+
+% Packages
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+
+% Global Layout Settings
+\linespread{1.1}
+
+% Page style
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Section formatting
+\titleformat{\section}{
+    \vspace{10pt}\scshape\large\raggedright
+}{}{0em}{}[\titlerule \vspace{6pt}]
+
+% List formatting
+\setlist[itemize]{
+    noitemsep,
+    topsep=3pt,
+    itemsep=1pt,
+    leftmargin=0.25in
+}
+
+% Font styling
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+
+%===== HEADER =====
+\begin{center}
+    {\Huge \bfseries Debabrata Sarkar} \\[12pt]
+    Technology Analyst, Infosys (Kolkata) \\[6pt]
+    \href{mailto:sdebabrata9@gmail.com}{sdebabrata9@gmail.com} \,|\, 
+    \href{tel:+918617345699}{+91-8617345699} \,|\, 
+    \href{https://www.linkedin.com/in/debabrata-sarkar-genai/}{LinkedIn Profile}
+\end{center}
+
+\vspace{8pt}
+
+%===== PROFILE SUMMARY =====
+\section*{Profile Summary}
+Technology Analyst with \textbf{4+ years} of experience designing and delivering \textbf{scalable, AI-driven enterprise solutions}. Strong expertise in \textbf{Generative AI, Python, LangChain, Prompt Engineering}, and backend API development using \textbf{Flask}. Proven ability to architect and deploy \textbf{RAG-based systems}, GenAI automation platforms, and cloud-native applications across \textbf{AWS and Google Cloud Platform}. Demonstrated success in building end-to-end SDLC automation solutions leveraging \textbf{LLMs, cloud services, and Infrastructure as Code} to accelerate product delivery and improve engineering productivity.
+
+%===== CORE SKILLS =====
+\section*{Core Skills}
+\begin{itemize}
+    \item \textbf{Programming:} Python, SQL
+    \item \textbf{AI / Generative AI:} LangChain, OpenAI, Gemini Flash, Claude Sonnet, Hugging Face, RAG, LLM Fine-tuning
+    \item \textbf{Expertise:} Prompt Engineering, Semantic Search, Conversational AI (Dialogflow)
+    \item \textbf{Cloud \& DevOps:} 
+    Google Cloud Platform (Vertex AI, Cloud Build, Workbench, IAM, Storage), 
+    \textbf{AWS (S3, Lambda, Bedrock, DynamoDB)}
+    \item \textbf{Databases:} PostgreSQL, DynamoDB, Qdrant (Vector DB)
+    \item \textbf{Frameworks / Tools:} Flask, REST APIs, Terraform, UiPath, Streamlit
+\end{itemize}
+
+\vspace{4pt}
+
+%===== PROFESSIONAL EXPERIENCE =====
+\section*{Professional Experience}
+
+% Role 1 - Technology Analyst
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+\textbf{Technology Analyst, Infosys} & \textit{Oct 2024 -- Present} \\
+\end{tabular*}
+
+\vspace{1pt}
+\begin{itemize}
+    \small
+    \item Designed and delivered an \textbf{enterprise-grade, GenAI-powered SDLC Automation Platform} leveraging \textbf{AWS Bedrock, AWS Lambda, Claude Sonnet 4.5, Amazon S3, and DynamoDB}, consolidating the \textbf{entire software development lifecycle into a single intelligent application} and reducing overall SDLC turnaround time by \textbf{60\%}.
+    \item \textbf{Automated end-to-end generation of BRD documentation, Jira user stories, system architecture diagrams, database schemas, full-stack application code, and Terraform-based Infrastructure as Code (IaC)}, accelerating requirement-to-code execution from \textbf{weeks to hours} through advanced LLM orchestration and structured prompt pipelines.
+    \item Architected highly scalable, event-driven \textbf{serverless workflows} using \textbf{AWS Lambda} and asynchronous integrations, enabling parallel SDLC stage execution, \textbf{reducing manual engineering effort by 50\%}, and significantly lowering operational overhead while ensuring cloud-native scalability and fault tolerance.
+    \item \textbf{Developed and productionized RAG-based Semantic Search solutions} using \textbf{Python, LangChain, Gemini Flash LLM, and Qdrant}, reducing information retrieval time by \textbf{20\%}.
+    \item \textbf{Led advanced Prompt Engineering initiatives} (few-shot, chain-of-thought, structured prompts) and \textbf{LLM fine-tuning}, improving response accuracy by \textbf{10\%} in enterprise AI applications.
+    \item \textbf{Built secure, high-performance} backend APIs using \textbf{Flask and REST}, supporting scalable AI workloads and frontend integrations.
+    \item \textbf{Implemented MLOps and CI/CD pipelines} using \textbf{GCP Vertex AI Workbench, Cloud Build, and cloud storage}, ensuring repeatable, production-grade model deployments.
+    \item \textbf{Integrated Dialogflow conversational agents} with backend AI services, enabling intelligent virtual assistants with real-time LLM responses.
+    \normalsize
+\end{itemize}
+
+\vspace{10pt}
+
+% Role 2 - Senior System Engineer
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+\textbf{Senior System Engineer, Infosys} & \textit{Oct 2023 -- Sep 2024} \\
+\end{tabular*}
+
+\vspace{1pt}
+\begin{itemize}
+    \small
+    \item Automated enterprise financial and administrative workflows using \textbf{UiPath RPA}, incorporating OCR, form automation, and notification systems.
+    \item Reduced manual operational effort by \textbf{20\%} through robust \textbf{Python-based web scraping and automation solutions}.
+    \item Optimized and managed \textbf{SQL databases} for high-volume transactional systems, ensuring performance and data integrity.
+    \normalsize
+\end{itemize}
+
+\vspace{6pt}
+
+% Role 3 - System Engineer
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+\textbf{System Engineer, Infosys} & \textit{Oct 2021 -- Sep 2023} \\
+\end{tabular*}
+
+\vspace{1pt}
+\begin{itemize}
+    \small
+    \item Supported high-availability production systems on \textbf{Google Cloud Platform}, ensuring reliability, security, and compliance.
+    \item Performed proactive incident monitoring and root cause analysis using \textbf{GCP Logging and Monitoring tools}.
+    \item Contributed to CI/CD pipelines using \textbf{Cloud Build} for continuous and safe application deployments.
+    \normalsize
+\end{itemize}
+
+\vspace{6pt}
+
+%===== EDUCATION =====
+\section*{Education}
+
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+\textbf{Meghnad Saha Institute of Technology, MAKAUT University} & \textit{08/2017 -- 08/2021} \\
+\end{tabular*}
+Bachelor of Technology in Civil Engineering \textbar{} CGPA: 8.29 \\
+Kolkata, West Bengal
+
+\vspace{3pt}
+
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+\textbf{Jalpaiguri Zilla School} & \textit{01/2015 -- 05/2016} \\
+\end{tabular*}
+Higher Secondary in Science \textbar{} Percentage: 75.6\% \\
+Jalpaiguri, West Bengal
+
+\vspace{3pt}
+
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+\textbf{Fanindra Dev Institution} & \textit{01/2013 -- 05/2014} \\
+\end{tabular*}
+Secondary Education \textbar{} Percentage: 76.7\% \\
+Jalpaiguri, West Bengal
+
+\vspace{6pt}
+
+%===== CERTIFICATIONS =====
+\section*{Certifications}
+\begin{itemize}
+    \item Google Certified Associate Cloud Engineer (ACE)
+    \item Infosys Certified Generative AI Professional – Foundation \& Intermediate
+    \item Infosys Certified SQL Developer – Foundation
+\end{itemize}
+
+\end{document}
